@@ -1,0 +1,15 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    color: #ECF2FF;
+    background-color: #227b9e;
+}
+header {
+    display: flow-root;
+}
+.album_cover{
+    float: left;
+    margin-right: 20px;
+    box-shadow: 3px 3px 10px black;
+}

@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.about {
+    background-color: antiquewhite;
+    width: auto;
+    height: 250px;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

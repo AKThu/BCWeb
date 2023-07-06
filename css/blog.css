@@ -1,0 +1,31 @@
+@font-face {
+    src: url(../resources/fonts/Ubuntu-Regular.ttf);
+    font-family: ubuntu-regular;
+}
+@font-face {
+    src: url(../resources/fonts/Ubuntu-Medium.ttf);
+    font-family: ubuntu-medium;
+}
+@font-face {
+    src: url(../resources/fonts/Ubuntu-Bold.ttf);
+    font-family: ubuntu-bold;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+header h1 {
+    font-family: ubuntu-bold, sans-serif;
+}
+.blog_body h3 {
+    font-family: ubuntu-medium, sans-serif;
+    font-size: 1.5em;
+}
+.blog_body p {
+    font-family: ubuntu-regular, sans-serif;
+    font-size: 1em;
+}
+.wrap {
+    float: left;
+    margin-right: 10px;
+}

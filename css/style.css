@@ -1,0 +1,9 @@
+body {
+    background-color: #ECF2FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    color: #ECF2FF;
+    background-color: #227b9e;
+    padding: 5px;
+}
