@@ -5,5 +5,9 @@ body {
 header, footer{
     color: #ECF2FF;
     background-color: #227b9e;
-    padding: 5px;
+    padding: 0px 5px;
+}
+header {
+    position: sticky;
+    top: 0px;
 }
