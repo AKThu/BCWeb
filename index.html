@@ -8,15 +8,42 @@
 </head>
 <body>
     <header>
-        <h1>This is a webpage.</h1>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Products</a>
-        <a href="">Contact us</a>
-        <a href="blog.html" target="_blank" title="go to blog page">Blog page</a>
-        <hr>
+        <h1>HTML & CSS</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li><a href="blog.html" target="_blank" title="go to blog page">Blog page</a></li>       
+            </ul>
+            <div class="dropdown">
+                <button>External Links</button><br>
+                <div class="links">
+                    <a href="lyrics.html" target="_blank" title="view lyrics">
+                        Flux lyrics
+                    </a>
+                    <a href="favgames.html" target="_blank" title="favourite games">
+                        Favourite Games
+                    </a>
+                    <a href="form.html" target="_blank" title="go to form">
+                        Form
+                    </a>
+                    <a href="os.html" target="_blank" title="operating systems">
+                        Operating Systems
+                    </a>
+                    <a href="blocks.html" target="_blank" title="experimenting blocks">
+                        Blocks
+                    </a>
+                    <a href="pagination/1.html" target="_blank" title="pagination example">
+                        Pagination
+                    </a>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
+        <br><br>
         <image src="resources/images/html_css.png" id="html_css"></image>
         <h3>HTML</h3>
         <p>
@@ -28,31 +55,14 @@
             Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
             <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" title="read on wikipedia">Read more...</a>
         </p>
-        
-        <div>
-            <h3>External Links:</h3>
-            <a href="lyrics.html" target="_blank" title="view lyrics">
-                Flux - Ellie Goulding
-            </a><br>
-            <a href="favgames.html" target="_blank" title="favourite games">
-                Favourite Games
-            </a><br>
-            <a href="form.html" target="_blank" title="go to form">
-                Form
-            </a><br>
-            <a href="os.html" target="_blank" title="operating systems">
-                Operating Systems
-            </a><br>
-            <a href="blocks.html" target="_blank" title="experimenting blocks">
-                Blocks
-            </a><br>
-        </div>
     </main>
     <footer>
         <hr>
         Author: Takamura<br>
         &copy; copyright reserved<br>
-        <small><a href="mailto:takamura340@gmail.com">takamura340@gmail.com</a></small>
-    </footer>
+        <div id="contact">
+            <small><a href="mailto:takamura340@gmail.com" class="email">takamura340@gmail.com</a></small>
+        </div>
+        </footer>
 </body>
 </html>

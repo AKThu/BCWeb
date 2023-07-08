@@ -1,13 +1,89 @@
 body {
     background-color: #ECF2FF;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
-header, footer{
+main {
+    margin: 10px;
+}
+footer{
     color: #ECF2FF;
     background-color: #227b9e;
     padding: 0px 5px;
 }
 header {
+    background-color: #ECF2FF;
     position: sticky;
     top: 0px;
+}
+header h1 {
+    text-align: center;
+    color: #227b9e;
+}
+#html_css {
+    display: block;
+    margin: auto;
+}
+small .email {
+    text-decoration: none;
+    color: #ECF2FF;
+}
+
+/* navigation bar */
+.navbar {
+    color: #ECF2FF;
+    background-color: #227b9e;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: inline-block;
+}
+.navbar li {
+    float: left;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ECF2FF;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: hsl(197, 65%, 30%);
+}
+
+/* for dropdown menu */
+.dropdown {
+    display: block;
+    float: right;
+}
+.dropdown button{
+    padding: 10px;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 70%);
+}
+.dropdown button:hover {
+    background-color: hsl(0, 0%, 80%);
+}
+.dropdown .links {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #000;
+    padding: 5px;
+}
+.dropdown:hover .links {
+    display: block;
+}
+.dropdown a:hover {
+    background-color: hsl(0, 0%, 80%);
 }

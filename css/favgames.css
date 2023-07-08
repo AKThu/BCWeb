@@ -1,15 +1,39 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../resources/images/albion\ wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
-h2 {
-    font-size: 1.5em;
-    font-weight: bold;
+#logo {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
 }
 .about {
-    background-color: antiquewhite;
+    background-color: hsla(34, 78%, 91%, 0.6);
     width: auto;
     height: 250px;
     overflow: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 20px;
+}
+video {
+    display: block;
+    width: 800px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(26, 26, 26);
+    border-radius: 10px;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }

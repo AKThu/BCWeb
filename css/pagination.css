@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pagination{
+    text-align: center;
+    margin-top: 25px;
+}
+.pagination a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+.pagination a.active {
+    background-color: rgb(41, 236, 41);
+    font-weight: bold;
+}
+.pagination a:hover:not(.active) {
+    background-color: rgb(212, 212, 212);
+}
