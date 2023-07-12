@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+#slide-animation {
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid grey;
+    background-color: magenta;
+    font-size: 5em;
+    text-align: center;
+}
+#box1 {
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    z-index: -1;
+    animation-iteration-count: infinite;
+}
+#box2 {
+    animation-name: slideTop;
+    animation-duration: 2s;
+    z-index: -1;
+    animation-iteration-count: infinite;
+}
+#box3 {
+    animation-name: slideDown;
+    animation-duration: 2s;
+    z-index: -1;
+    animation-iteration-count: infinite;
+}
+#box4 {
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes slideLeft {
+    to{transform: translateX(100px);}
+}
+@keyframes slideRight {
+    to{transform: translateX(-100px);}
+}
+@keyframes slideTop {
+    to{transform: translateY(-100px);}
+}
+@keyframes slideDown {
+    to{transform: translateY(100px);}
+}
+
+/* rotation animation */
+#rotate-animation {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 1.5em;
+    text-align: center;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    100%{transform: rotateZ(360deg);}
+}
+
+/* zoom in & out animation */
+#zoom-animation {
+    margin-top: 20px;
+}
+.zoom_in {
+    margin-left: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(240, 34, 34);
+    animation-name: zoom_in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.zoom_out {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(252, 186, 21);
+    animation-name: zoom_out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom_in {
+    100%{transform: scale(1.8,1.8);}
+}
+@keyframes zoom_out {
+    100%{transform: scale(0.1,0.1);}
+}
